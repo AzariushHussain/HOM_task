@@ -13,7 +13,7 @@ This is a **basic Inventory Management System** with full **CRUD functionality**
 ✅ **Styling**: Bootstrap / TailwindCSS  
 
 ## **Live Demo**
-🚀 [https://hom-task-bfwb.vercel.app/](#) (Replace with actual link)  
+🚀 [https://hom-task-bfwb.vercel.app/](#) 
 
 ## **Tech Stack**
 - **Frontend**: React.js 

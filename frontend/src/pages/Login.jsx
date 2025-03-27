@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { loginUser } from "../api/auth";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { login } from "../store/authSlice";
 import { showNotification } from "../store/notificationSlice";
 
@@ -66,7 +66,7 @@ function Login() {
                 </form>
 
                 <p className="mt-3 text-center">
-                    Don't have an account? <a href="/register" className="text-primary">Register</a>
+                    Don't have an account? <Link to="/register" className="text-primary">Register</Link>
                 </p>
             </div>
         </div>

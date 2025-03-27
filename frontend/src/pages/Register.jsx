@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { registerUser } from "../api/auth";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { login } from "../store/authSlice";
 import { showNotification } from "../store/notificationSlice";
 
@@ -72,7 +72,7 @@ function Register() {
                 </form>
 
                 <p className="mt-3 text-center">
-                    Already have an account? <a href="/login" className="text-primary">Login</a>
+                    Already have an account? <Link to="/login" className="text-primary">Login</Link>
                 </p>
             </div>
         </div>

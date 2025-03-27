@@ -1,16 +1,16 @@
 # **Inventory Management System**
 
 ## **Overview**
-This is a **basic Inventory Management System** with full **CRUD functionality**, **user authentication**, and a **frontend (React/Next.js) + backend (Node.js/Express)**.  
+This is a **basic Inventory Management System** with full **CRUD functionality**, **user authentication**, and a **frontend (React.js) + backend (Node.js/Express)**.  
 
 ## **Features**
 ✅ **User Authentication** (Register/Login)  
 ✅ **CRUD Operations** for inventory items (Create, Read, Update, Delete)  
-✅ **Frontend**: React or Next.js  
+✅ **Frontend**: React.js  
 ✅ **Backend**: Node.js & Express.js  
 ✅ **Database**: MongoDB (via Mongoose)  
 ✅ **API Security**: JWT Authentication  
-✅ **Styling**: Bootstrap / TailwindCSS  
+✅ **Styling**: Bootstrap   
 
 ## **Live Demo**
 🚀 [https://hom-task-bfwb.vercel.app/](#) 
